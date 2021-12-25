@@ -37,4 +37,5 @@ TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
 BUILD_DATE := $(shell date +"%Y%m%d-%H%M%S")
 TARGET_PIXEL_CHARGE_ANIM := true
-EXTRA_FOD_ANIMATIONS := true
+DERP_BUILDTYPE := Official
+EXTRA_UDFPS_ANIMATIONS := true
