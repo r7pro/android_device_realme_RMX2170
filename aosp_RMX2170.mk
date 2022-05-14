@@ -7,14 +7,14 @@
 # Inherit from RMX2170 device
 $(call inherit-product, device/realme/RMX2170/device.mk)
 
-# Inherit some common DerpFest stuff
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+# Inherit some common Project Elixir stuff
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier
-PRODUCT_NAME := derp_RMX2170
+PRODUCT_NAME := aosp_RMX2170
 PRODUCT_DEVICE := RMX2170
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := Realme 7 Pro
@@ -37,6 +37,10 @@ TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
 BUILD_DATE := $(shell date +"%Y%m%d-%H%M%S")
 TARGET_PIXEL_CHARGE_ANIM := true
-DERP_BUILDTYPE := Official
 EXTRA_UDFPS_ANIMATIONS := true
-USE_LEGACY_BOOTANIMATION := true
+TARGET_SUPPORTS_QUICK_TAP := true
+CUSTOM_BUILD_TYPE := OFFICIAL
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_STOCK_ACORE := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_FACE_UNLOCK_SUPPORTED := true
