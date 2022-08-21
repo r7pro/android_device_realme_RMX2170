@@ -7,14 +7,14 @@
 # Inherit from RMX2170 device
 $(call inherit-product, device/realme/RMX2170/device.mk)
 
-# Inherit some common Project Elixir stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common ArrowOS stuff
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier
-PRODUCT_NAME := aosp_RMX2170
+PRODUCT_NAME := arrow_RMX2170
 PRODUCT_DEVICE := RMX2170
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := Realme 7 Pro
