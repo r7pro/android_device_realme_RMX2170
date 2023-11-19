@@ -7,14 +7,14 @@
 # Inherit from RMX2170 device
 $(call inherit-product, device/realme/RMX2170/device.mk)
 
-# Inherit some common EvolutionX stuff
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+# Inherit some common DerpFest stuff
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier
-PRODUCT_NAME := evolution_RMX2170
+PRODUCT_NAME := derp_RMX2170
 PRODUCT_DEVICE := RMX2170
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := Realme 7 Pro
@@ -37,16 +37,15 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT="RMX2170" \
     TARGET_DEVICE="RMX2170"
 
-# Inherit EvolutionX build stuff.
+# Inherit DerpFest build stuff.
 WITH_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
-TARGET_BOOT_ANIMATION_RES_EVO := true
+IS_PHONE := true
+DERP_VERSION_APPEND_TIME_OF_DAY := true
 TARGET_PIXEL_CHARGE_ANIM := true
-TARGET_SUPPORTS_QUICK_TAP := false
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_INCLUDE_STOCK_ARCORE := true
+DERP_BUILDTYPE := Official
 EXTRA_UDFPS_ANIMATIONS := true
-EVO_BUILD_TYPE := OFFICIAL
-
-# Memetainer stuff
-EVO_DONATE_URL := https://paypal.me/marshmello61
-EVO_MAINTAINER := Mayur Varde
-EVO_SUPPORT_URL := https://t.me/mellolab
+USE_LEGACY_BOOTANIMATION := true
