@@ -29,9 +29,12 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    TelephonyOverlay \
-	SettingsLibOverlay
+    $(LOCAL_PATH)/overlay
+
+# RRO Overlays
+PRODUCT_PACKAGES += \
+    SettingsLibOverlay \
+    SystemUIOverlay
 
 # Support legacy stocked firmware
 PRODUCT_FULL_TREBLE_OVERRIDE := true
