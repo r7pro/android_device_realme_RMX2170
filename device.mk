@@ -31,6 +31,6 @@ PRODUCT_COPY_FILES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
-# Udfps
-PRODUCT_PACKAGES += \
-    UdfpsResources
+# Support legacy stocked firmware
+PRODUCT_FULL_TREBLE_OVERRIDE := true
+TARGET_HAS_UDFPS := true
