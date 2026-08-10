@@ -20,7 +20,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 PRODUCT_NAME := lineage_RMX2170
 PRODUCT_DEVICE := RMX2170
 PRODUCT_BRAND := realme
-PRODUCT_MODEL := 7 Pro
+PRODUCT_MODEL := realme 7 Pro
 PRODUCT_MANUFACTURER := realme
 
 PRODUCT_SYSTEM_NAME := RMX2170
@@ -29,8 +29,8 @@ PRODUCT_SYSTEM_DEVICE := RMX2170
 PRODUCT_GMS_CLIENTID_BASE := android-realme
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="atoll-user 11 RKQ1.200903.002/ eng.root.04080114.013112 release-keys" \
-    BuildFingerprint=qti/atoll/atoll:11/RKQ1.200903.002/root04080114:user/release-keys \
+    BuildDesc="atoll-user 11 RKQ1.200903.002 1621946429926 release-keys" \
+    BuildFingerprint=realme/RMX2170/RMX2170L1:11/RKQ1.200903.002/1621946429926:user/release-keys \
     DeviceName=RMX2170 \
     DeviceProduct=RMX2170 \
     SystemDevice=RMX2170 \
