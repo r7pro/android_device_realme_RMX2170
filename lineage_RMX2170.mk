@@ -36,8 +36,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     SystemDevice=RMX2170 \
     SystemName=RMX2170
 
-# Audio mods (set any to true to enable: dirac | viper | dolby)
-WITH_AUDIO_DIRAC := false
+# Audio mods (set any to true to enable: viper | dolby)
 WITH_AUDIO_VIPER := false
 WITH_AUDIO_DOLBY := false
 
