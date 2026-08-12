@@ -31,6 +31,6 @@ PRODUCT_COPY_FILES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
-# Udfps
+# RRO Overlays
 PRODUCT_PACKAGES += \
-    UdfpsResources
+    SystemUIPaddingOverlay
