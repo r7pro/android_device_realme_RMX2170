@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- status_bar_padding_start: AOSP 4dp -->
+    <dimen name="status_bar_padding_start">0dp</dimen>
+    <!-- status_bar_padding_end: AOSP 4dp -->
+    <dimen name="status_bar_padding_end">0dp</dimen>
+    <!-- status_bar_padding_top: AOSP 0dp -->
+    <dimen name="status_bar_padding_top">10dp</dimen>
+    <!-- qs_panel_padding_top: AOSP 80dp -->
+    <dimen name="qs_panel_padding_top">60dp</dimen>
+    <!-- qs_header_row_min_height: AOSP @status_bar_height (40dp) -->
+    <!-- <dimen name="qs_header_row_min_height">45dp</dimen> -->
+</resources>

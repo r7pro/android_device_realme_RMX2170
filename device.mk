@@ -34,7 +34,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 # RRO Overlays
 PRODUCT_PACKAGES += \
     SettingsLibOverlay \
-    SystemUIOverlay
+    SystemUIOverlay \
+    SystemUIPaddingOverlay
 
 # Support legacy stocked firmware
 PRODUCT_FULL_TREBLE_OVERRIDE := true
