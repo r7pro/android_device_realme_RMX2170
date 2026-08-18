@@ -33,8 +33,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # RRO Overlays
 PRODUCT_PACKAGES += \
-    SettingsLibOverlay \
-    SystemUIOverlay \
     SystemUIPaddingOverlay
 
 # Support legacy stocked firmware
