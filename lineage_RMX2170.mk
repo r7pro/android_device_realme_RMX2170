@@ -50,3 +50,6 @@ WITH_AUDIO_DOLBY := false
 
 # Target
 TARGET_SUPPORTS_QUICK_TAP := true
+
+# EvolutionX flags
+TARGET_USES_MINI_GAPPS := true
