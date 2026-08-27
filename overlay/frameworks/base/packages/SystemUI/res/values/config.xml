@@ -19,15 +19,16 @@
 <!-- These resources are around just to allow their values to be customized
      for different hardware and product builds. -->
 <resources>
-    <!-- Color of the FOD view -->
+    <!-- pixel_pitch: microns per pixel. 61.8 for 6.4" 1080x2400 AMOLED display. -->
+    <item name="pixel_pitch" format="float" type="dimen">61.8</item>
+
+    <!-- Color of the UDFPS sensor overlay (transparent = panel HBM handles illumination) -->
     <color name="config_udfpsColor">#00ffffff</color>
 
-    <!-- The bottom margin of the keyguard security container -->
-    <dimen name="kg_security_container_min_bottom_margin">469px</dimen>
+    <!-- A16: Y coordinate of the UDFPS sensor center on screen -->
+    <dimen name="physical_fingerprint_sensor_center_screen_location_y">2197px</dimen>
 
-    <!-- HBM type of UDFPS overlay.
-            0 - GLOBAL HBM
-            1 - LOCAL HBM
-    -->
-    <integer name="config_udfpsHbmType">1</integer>
+    <!-- A16: Touch detection mode. Option 2 = ellipse detector, circle sensor,
+         full target, 40% min overlap — best for round optical sensors. -->
+    <integer name="config_selected_udfps_touch_detection">2</integer>
 </resources>

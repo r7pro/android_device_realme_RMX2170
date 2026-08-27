@@ -37,9 +37,6 @@
     -->
     <string name="config_mainBuiltInDisplayCutout">M -544,0 L -544,110 L -386,110 L -386,0 Z</string>
 
-    <!-- Whether to show a custom view for FOD -->
-    <bool name="config_needCustomFODView">true</bool>
-
     <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
     <integer-array name="config_udfps_sensor_props" translatable="false" >
         <item>540</item>
@@ -47,12 +44,4 @@
         <item>97</item>
     </integer-array>
 
-    <!-- How long it takes for the HW to start illuminating after the illumination is requested. -->
-    <integer name="config_udfps_illumination_transition_ms">0</integer>
-
-    <!-- Udfps animation -->
-    <dimen name="udfps_animation_offset">40dp</dimen>
-
-    <!-- Allow devices override audio panel location to the left side -->
-    <bool name="config_audioPanelOnLeftSide">true</bool>
 </resources>
