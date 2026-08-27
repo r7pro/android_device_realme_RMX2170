@@ -35,6 +35,4 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     SystemUIPaddingOverlay
 
-# Support legacy stocked firmware
-PRODUCT_FULL_TREBLE_OVERRIDE := true
 TARGET_HAS_UDFPS := true

@@ -11,6 +11,8 @@ $(call inherit-product, device/realme/RMX2170/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 
 # Inherit some common Lineage stuff
+# Disable fingerprint override — set before inherit
+TARGET_ENABLE_FP_OVERRIDE := false
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Bootanimation Resolution
@@ -40,11 +42,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 WITH_AUDIO_VIPER := false
 WITH_AUDIO_DOLBY := false
 
-# Support legacy stocked firmware
-PRODUCT_FULL_TREBLE_OVERRIDE := true
-
-# OMX
-TARGET_SUPPORTS_OMX_SERVICE := false
-
 # Target
 TARGET_SUPPORTS_QUICK_TAP := true
+
