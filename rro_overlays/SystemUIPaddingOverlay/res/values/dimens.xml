@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- status_bar_padding_start: AOSP 4dp -->
+    <!-- status_bar_padding_start: 0dp for punch-hole alignment -->
     <dimen name="status_bar_padding_start">0dp</dimen>
-    <!-- status_bar_padding_end: AOSP 4dp -->
+    <!-- status_bar_padding_end: 0dp for symmetrical right margin -->
     <dimen name="status_bar_padding_end">0dp</dimen>
-    <!-- status_bar_padding_top: AOSP 0dp -->
-    <dimen name="status_bar_padding_top">10dp</dimen>
-    <!-- qs_panel_padding_top: AOSP 80dp -->
-    <dimen name="qs_panel_padding_top">60dp</dimen>
-    <!-- qs_header_row_min_height: AOSP @status_bar_height (40dp) -->
-    <!-- <dimen name="qs_header_row_min_height">45dp</dimen> -->
+    <!-- status_bar_padding_top: 11.5dp to center icons vertically with notch -->
+    <dimen name="status_bar_padding_top">11.5dp</dimen>
+    <!-- status_bar_left_clock_starting_padding: 0dp -->
+    <dimen name="status_bar_left_clock_starting_padding">0dp</dimen>
+    <!-- keyguard_carrier_text_margin: 0dp so lockscreen matches QS collapsed -->
+    <dimen name="keyguard_carrier_text_margin">0dp</dimen>
+    <!-- status_bar_header_height_keyguard: 28dp for vertical lockscreen notch alignment -->
+    <dimen name="status_bar_header_height_keyguard">28dp</dimen>
+    <!-- qs_panel_padding_top: 80dp for balanced clearance below expanded clock/date -->
+    <dimen name="qs_panel_padding_top">80dp</dimen>
 </resources>
