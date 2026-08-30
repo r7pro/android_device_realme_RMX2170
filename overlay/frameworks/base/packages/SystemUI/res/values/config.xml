@@ -22,7 +22,7 @@
     <!-- pixel_pitch: microns per pixel. 61.8 for 6.4" 1080x2400 AMOLED display. -->
     <item name="pixel_pitch" format="float" type="dimen">61.8</item>
 
-    <!-- Color of the UDFPS sensor overlay (transparent = panel HBM handles illumination) -->
+    <!-- Color of the UDFPS sensor overlay (transparent so udfps_icon_pressed.png drawable is rendered directly) -->
     <color name="config_udfpsColor">#00ffffff</color>
 
     <!-- A16: Y coordinate of the UDFPS sensor center on screen -->

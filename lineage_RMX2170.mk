@@ -13,6 +13,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 # Inherit some common Lineage stuff
 # Disable fingerprint override — set before inherit
 TARGET_ENABLE_FP_OVERRIDE := false
+
+# Enable ADB in userdebug builds — set before inherit
+ifneq ($(TARGET_BUILD_VARIANT),user)
+WITH_ADB_INSECURE := true
+endif
+
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Bootanimation Resolution
@@ -44,4 +50,3 @@ WITH_AUDIO_DOLBY := false
 
 # Target
 TARGET_SUPPORTS_QUICK_TAP := true
-
