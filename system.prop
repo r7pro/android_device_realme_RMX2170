@@ -1,2 +1,13 @@
 # Display
 vendor.display.svi.config_path=/vendor/etc/svi_config_206B1.xml
+
+# Fingerprint (Optical UDFPS)
+persist.vendor.fingerprint.sensor_type=optical
+persist.vendor.fingerprint.optical.sensorlocation=540:2197
+persist.vendor.fingerprint.optical.iconsize=194
+persist.vendor.fingerprint.optical.sensorrotation=0
+persist.vendor.fingerprint.optical.iconnumber=1
+persist.vendor.fingerprint.optical.circlenumber=1
+persist.vendor.fingerprint.fp_id=G_Primax2_G3.0
+ro.hardware.fp.udfps=true
+ro.hardware.fp.side=false

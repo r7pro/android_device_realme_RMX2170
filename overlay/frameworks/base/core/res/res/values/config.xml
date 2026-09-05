@@ -44,7 +44,17 @@
         <item>97</item>
     </integer-array>
 
+    <!-- How long it takes for the HW to start illuminating after the illumination is requested. -->
+    <integer name="config_udfps_illumination_transition_ms">0</integer>
+
     <!-- The type of the light sensor to be used for automatic brightness. -->
     <string name="config_displayLightSensorType" translatable="false">qti.sensor.wise_light</string>
+
+    <!-- Whether to cancel fingerprint operation if not idle -->
+    <bool name="config_fpCancelIfNotIdle">true</bool>
+
+    <!-- Whether to enable fp unlock when screen turns off on udfps devices -->
+    <bool name="config_screen_off_udfps_enabled">true</bool>
+    <bool name="config_screen_off_udfps_default_on">false</bool>
 
 </resources>

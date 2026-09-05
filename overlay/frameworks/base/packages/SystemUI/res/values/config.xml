@@ -31,4 +31,16 @@
     <!-- A16: Touch detection mode. Option 2 = ellipse detector, circle sensor,
          full target, 40% min overlap — best for round optical sensors. -->
     <integer name="config_selected_udfps_touch_detection">2</integer>
+
+    <!-- Whether the system framework should handle UDFPS dimming. False because kernel/HAL handles it via hardware dimlayer_hbm -->
+    <bool name="config_udfpsFrameworkDimming">false</bool>
+
+    <!-- HBM type of UDFPS overlay.
+            0 - GLOBAL HBM
+            1 - LOCAL HBM
+    -->
+    <integer name="config_udfps_hbm_type">0</integer>
+
+    <!-- The bottom margin of the keyguard security container to prevent overlapping the UDFPS sensor area -->
+    <dimen name="kg_security_container_min_bottom_margin">469px</dimen>
 </resources>
