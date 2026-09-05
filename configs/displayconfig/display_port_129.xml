@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+    Copyright (C) 2024 The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<displayConfiguration>
+    <lightSensor>
+        <type>qti.sensor.wise_light</type>
+    </lightSensor>
+    <screenBrightnessMap>
+        <point>
+            <value>0.0</value>
+            <nits>2.0</nits>
+        </point>
+        <point>
+            <value>1.0</value>
+            <nits>600.0</nits>
+        </point>
+    </screenBrightnessMap>
+</displayConfiguration>

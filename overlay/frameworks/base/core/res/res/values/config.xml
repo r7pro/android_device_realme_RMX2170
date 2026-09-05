@@ -44,4 +44,7 @@
         <item>97</item>
     </integer-array>
 
+    <!-- The type of the light sensor to be used for automatic brightness. -->
+    <string name="config_displayLightSensorType" translatable="false">qti.sensor.wise_light</string>
+
 </resources>
