@@ -46,7 +46,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Audio mods (set any to true to enable: viper | dolby)
 WITH_AUDIO_VIPER := false
-WITH_AUDIO_DOLBY := false
+WITH_AUDIO_DOLBY := true
 
 # Target
 TARGET_SUPPORTS_QUICK_TAP := true
+
+# EvolutionX flags
+TARGET_USES_MINI_GAPPS := true
