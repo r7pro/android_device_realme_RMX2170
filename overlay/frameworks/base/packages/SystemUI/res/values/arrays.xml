@@ -21,11 +21,10 @@
          Values match exact factory photometric calibration from panel DTS:
          arch/arm64/boot/dts/206B1/dsi-panel-oppo206B1samsung-ams643xy01-1080-2400-dsi-vid.dtsi (oppo,dsi-fod-brightness). -->
     <string-array name="config_udfpsDimmingBrightnessAlphaArray" translatable="false">
-        <!-- AOD/Doze mode reports BRIGHTNESS_INVALID_FLOAT (-2.0f * 4095 = -8190).
-             Matches interpolated factory DTS calibration for AOD backlight 258 (alpha 228)
-             so AOD clock brightness remains identical before and during fp press. -->
-        <item>-9999,228</item>
-        <item>-8190,228</item>
+        <!-- Invalid brightness sentinel values. Alpha 0 = no framework dimming.
+             Kernel dimlayer handles AOD dimming via sde_crtc_config_fingerprint_dim_layer(). -->
+        <item>-9999,0</item>
+        <item>-8190,0</item>
         <!-- Factory panel DTS photometric calibration (oppo,dsi-fod-brightness) -->
         <item>0,255</item>
         <item>100,239</item>
