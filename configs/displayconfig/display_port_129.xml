@@ -7,6 +7,9 @@
     <lightSensor>
         <type>qti.sensor.wise_light</type>
     </lightSensor>
+    <screenOffSensor>
+        <type>qti.sensor.wise_light</type>
+    </screenOffSensor>
     <screenBrightnessMap>
         <point>
             <value>0.0</value>
