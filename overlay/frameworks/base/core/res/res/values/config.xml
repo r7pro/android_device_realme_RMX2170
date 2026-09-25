@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
-** Copyright 2015, The Android Open Source Project
+** Copyright 2015-2024, The Android Open Source Project
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -16,48 +16,21 @@
 ** limitations under the License.
 */
 -->
-<!-- These resources are around just to allow their values to be customized
-     for different hardware and product builds. -->
 <resources>
 
-    <!-- The bounding path of the cutout region of the main built-in display.
-         Must either be empty if there is no cutout region, or a string that is parsable by
-         {@link android.util.PathParser}.
-         The path is assumed to be specified in display coordinates with pixel units and in
-         the display's native orientation, with the origin of the coordinate system at the
-         center top of the display.
-         To facilitate writing device-independent emulation overlays, the marker `@dp` can be
-         appended after the path string to interpret coordinates in dp instead of px units.
-         Note that a physical cutout should be configured in pixels for the best results.
-         Example for a 10px x 10px square top-center cutout:
-                <string ...>M -5,0 L -5,10 L 5,10 L 5,0 Z</string>
-         Example for a 10dp x 10dp square top-center cutout:
-                <string ...>M -5,0 L -5,10 L 5,10 L 5,0 Z @dp</string>
-         @see https://www.w3.org/TR/SVG/paths.html#PathData
-    -->
+    <!-- The bounding path of the cutout region of the main built-in display. -->
     <string name="config_mainBuiltInDisplayCutout">M -544,0 L -544,110 L -386,110 L -386,0 Z</string>
-   
-    <!-- Shows the required view for in-display fingerprint -->
-    <bool name="config_supportsInDisplayFingerprint">true</bool>
-    
+
     <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
     <integer-array name="config_udfps_sensor_props" translatable="false" >
         <item>540</item>
         <item>2197</item>
         <item>97</item>
     </integer-array>
-
-    <!-- How long it takes for the HW to start illuminating after the illumination is requested. -->
-    <integer name="config_udfps_illumination_transition_ms">0</integer>
-
     <!-- The type of the light sensor to be used for automatic brightness. -->
     <string name="config_displayLightSensorType" translatable="false">qti.sensor.wise_light</string>
 
-    <!-- Whether to cancel fingerprint operation if not idle -->
-    <bool name="config_fpCancelIfNotIdle">true</bool>
-
-    <!-- Whether to enable fp unlock when screen turns off on udfps devices -->
-    <bool name="config_screen_off_udfps_enabled">false</bool>
-    <bool name="config_screen_off_udfps_default_on">false</bool>
+    <!-- Udfps animation offset -->
+    <dimen name="udfps_animation_offset">40dp</dimen>
 
 </resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Pixel pitch = 1080px / 6.4 inches diag (approx 61.8 px/mm or dp/mm) -->
+    <item name="pixel_pitch" format="float" type="dimen">61.8</item>
+
+    <!-- Physical fingerprint sensor center screen location Y -->
+    <dimen name="physical_fingerprint_sensor_center_screen_location_y">2197px</dimen>
+</resources>

@@ -35,5 +35,3 @@ DEVICE_PACKAGE_OVERLAYS += \
 # RRO Overlays
 PRODUCT_PACKAGES += \
     SystemUIPaddingOverlay
-
-TARGET_HAS_UDFPS := true
