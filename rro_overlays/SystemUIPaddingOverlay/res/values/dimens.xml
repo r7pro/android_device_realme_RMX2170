@@ -21,7 +21,9 @@
     <dimen name="clock_padding_start">28dp</dimen>
     <dimen name="below_clock_padding_start">28dp</dimen>
     <dimen name="below_clock_padding_end">28dp</dimen>
-    <dimen name="below_clock_padding_start_icons">28dp</dimen>
+    <!-- The icon container has a 5dp intrinsic leading inset.  Compensate for
+         it so its visible icons line up with the small clock at 28dp. -->
+    <dimen name="below_clock_padding_start_icons">33dp</dimen>
     <dimen name="status_view_margin_horizontal">16dp</dimen>
 
     <!-- Notification icon row centering: match below_clock_padding_start/end so icons
