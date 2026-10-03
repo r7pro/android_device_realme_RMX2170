@@ -18,19 +18,17 @@
     <!-- Small clock sizing and layout to center clock and prevent date/smartspace truncation on lockscreen and AOD -->
     <dimen name="small_clock_text_size">64dp</dimen>
     <dimen name="small_clock_height">88dp</dimen>
-    <dimen name="clock_padding_start">28dp</dimen>
-    <dimen name="below_clock_padding_start">28dp</dimen>
-    <dimen name="below_clock_padding_end">28dp</dimen>
-    <!-- The icon container has a 5dp intrinsic leading inset.  Compensate for
-         it so its visible icons line up with the small clock at 28dp. -->
-    <dimen name="below_clock_padding_start_icons">33dp</dimen>
-    <dimen name="status_view_margin_horizontal">16dp</dimen>
+    <dimen name="clock_padding_start">0dp</dimen>
+    <dimen name="below_clock_padding_start">0dp</dimen>
+    <dimen name="below_clock_padding_end">0dp</dimen>
+    <dimen name="below_clock_padding_start_icons">0dp</dimen>
+    <dimen name="status_view_margin_horizontal">44dp</dimen>
 
     <!-- Notification icon row centering: match below_clock_padding_start/end so icons
          align with the clock and date/weather row on both lockscreen and AOD -->
-    <dimen name="shelf_icon_container_padding">28dp</dimen>
+    <dimen name="shelf_icon_container_padding">0dp</dimen>
 
     <!-- Weather / Smartspace centering on lockscreen and AOD -->
-    <dimen name="weather_date_icon_padding">28dp</dimen>
-    <dimen name="smartspace_padding_horizontal">28dp</dimen>
+    <dimen name="weather_date_icon_padding">0dp</dimen>
+    <dimen name="smartspace_padding_horizontal">0dp</dimen>
 </resources>
