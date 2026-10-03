@@ -14,4 +14,21 @@
     <dimen name="status_bar_header_height_keyguard">28dp</dimen>
     <!-- qs_panel_padding_top: 80dp for balanced clearance below expanded clock/date -->
     <dimen name="qs_panel_padding_top">80dp</dimen>
+
+    <!-- Small clock sizing and layout to center clock and prevent date/smartspace truncation on lockscreen and AOD -->
+    <dimen name="small_clock_text_size">64dp</dimen>
+    <dimen name="small_clock_height">88dp</dimen>
+    <dimen name="clock_padding_start">28dp</dimen>
+    <dimen name="below_clock_padding_start">28dp</dimen>
+    <dimen name="below_clock_padding_end">28dp</dimen>
+    <dimen name="below_clock_padding_start_icons">28dp</dimen>
+    <dimen name="status_view_margin_horizontal">16dp</dimen>
+
+    <!-- Notification icon row centering: match below_clock_padding_start/end so icons
+         align with the clock and date/weather row on both lockscreen and AOD -->
+    <dimen name="shelf_icon_container_padding">28dp</dimen>
+
+    <!-- Weather / Smartspace centering on lockscreen and AOD -->
+    <dimen name="weather_date_icon_padding">28dp</dimen>
+    <dimen name="smartspace_padding_horizontal">28dp</dimen>
 </resources>
