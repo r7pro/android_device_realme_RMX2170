@@ -33,4 +33,26 @@
     <!-- Udfps animation offset -->
     <dimen name="udfps_animation_offset">40dp</dimen>
 
+    <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state.
+         Setting to false eliminates the artificial blackout delay when waking to lockscreen. -->
+    <bool name="config_displayBlanksAfterDoze">false</bool>
+
+    <!-- Specifies the maximum burn-in offset displacement from the center. If -1, no maximum value
+         will be used. -->
+    <integer name="config_burnInProtectionMaxRadius">-1</integer>
+
+    <!-- Specifies the minimum burn-in offset horizontally. -->
+    <integer name="config_burnInProtectionMinHorizontalOffset">-10</integer>
+
+    <!-- Specifies the maximum burn-in offset horizontally. -->
+    <integer name="config_burnInProtectionMaxHorizontalOffset">10</integer>
+
+    <!-- Specifies the minimum burn-in offset vertically. -->
+    <integer name="config_burnInProtectionMinVerticalOffset">-40</integer>
+
+    <!-- Specifies the maximum burn-in offset vertically. -->
+    <integer name="config_burnInProtectionMaxVerticalOffset">40</integer>
+
+    <!-- Whether device has SuperDart charging support (65W) -->
+    <bool name="config_hasSuperdartCharger">true</bool>
 </resources>

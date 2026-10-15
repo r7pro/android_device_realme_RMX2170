@@ -1,0 +1,3 @@
+# Display (Super AMOLED Doze)
+vendor.display.enable_poms_during_doze=1
+vendor.display.override_doze_mode=1
