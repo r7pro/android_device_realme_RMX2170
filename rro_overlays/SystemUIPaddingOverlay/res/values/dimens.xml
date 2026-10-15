@@ -14,4 +14,8 @@
     <dimen name="status_bar_header_height_keyguard">28dp</dimen>
     <!-- qs_panel_padding_top: 80dp for balanced clearance below expanded clock/date -->
     <dimen name="qs_panel_padding_top">80dp</dimen>
+
+    <!-- Scale small lockscreen clock for clean side-by-side fit with Smartspace -->
+    <dimen name="small_clock_text_size">75dp</dimen>
+    <dimen name="small_clock_height">100dp</dimen>
 </resources>

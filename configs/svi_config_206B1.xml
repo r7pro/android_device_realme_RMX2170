@@ -22,7 +22,7 @@
 
 <MaxBacklightLevel units='uint'>4095</MaxBacklightLevel>
 <MinBacklightReductionRatio units='int'>820</MinBacklightReductionRatio>
-<BacklightReductionMode uints='int'>0</BacklightReductionMode>
+<BacklightReductionMode units='int'>0</BacklightReductionMode>
 <EnableBacklightReduction units='int'>0</EnableBacklightReduction>
 
 <IndoorMinLuxLevel units='int'>3</IndoorMinLuxLevel>
@@ -35,7 +35,7 @@
 <OutdoorMaxBrightnessLevel units='int'>255</OutdoorMaxBrightnessLevel>
 
 <LuxStartPoint units='int'>2000</LuxStartPoint>
-<TemporalControlTableLength uints='int'>4</TemporalControlTableLength>
+<TemporalControlTableLength units='int'>4</TemporalControlTableLength>
 <TemporalControlTableInput units='uint'>30 50 128 160</TemporalControlTableInput>
 
 <TemporalControlTableOutput units='uint'>2 2 2 4</TemporalControlTableOutput>
